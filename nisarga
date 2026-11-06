@@ -1,0 +1,9 @@
+numbers = [45, 31, 78, 9, 0, 54, 12, 18, 78]
+
+# Remove duplicates and sort in descending order
+unique_nums = sorted(list(set(numbers)), reverse=True)
+
+# Get the 3rd greatest number (index 2)
+third_greatest = unique_nums[2]
+
+print("Third greatest number:", third_greatest)
